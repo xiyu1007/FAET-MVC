@@ -1,0 +1,15 @@
+function [X,Y] = getALOIData()
+    data = load('Datasets\ALOI\ALOI.mat');
+    Y = data.y;
+    Y = categorical(Y);
+    Y = dummyvar(Y);
+    X = cell(1,numel(data.X));
+    for m=1:numel(data.X)
+        X{m} = data.X{m};
+    end
+    % X = NormalizeData(X,1); % My2
+    X = NormalizeData(X,2); % My
+end
+
+
+

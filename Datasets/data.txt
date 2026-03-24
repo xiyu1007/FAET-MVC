@@ -1,0 +1,34 @@
+Yale 165
+ 
+3Sources 169
+
+MSRC_v1 210
+
+NGs 500
+
+BBCSport 544
+
+webkb 1051
+
+Caltech101-7 1474
+
+HW  2000
+
+
+NUS-WIDE 2400
+
+BDGP  2500
+
+OutdoorScene 2688
+
+MNIST-4 4000
+
+Hdigit 10000
+
+Animal 10158
+
+ALOI 10800
+
+Reuters 18758
+
+NUSWIDEOBJ 30000
